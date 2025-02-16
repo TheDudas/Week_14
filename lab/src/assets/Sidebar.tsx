@@ -20,16 +20,20 @@ const testSlides = [
         order: 3,
         image: thumbnailImage3
     }, 
+    {
+        id: 3,
+        order: 4,
+        image: thumbnailImage3
+    }, 
 
 ]
 
 
 export default function Sidebar() {
     return (
-    <div className="border-end bg-light p-3 d-flex flex-column">
-        <SlideThumbnail slide={testSlides[0]}/>
-        <SlideThumbnail slide={testSlides[1]}/>
-        <SlideThumbnail slide={testSlides[2]}/>
+    <div className="border-end bg-light p-4 d-flex flex-column">
+        { testSlides.map ( slide => <SlideThumbnail key={slide.id} slide={ slide }/>) }
+      
         </div>
     )
 }

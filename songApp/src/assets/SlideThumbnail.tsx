@@ -1,10 +1,11 @@
-import thumbnailImage from "./thumbnail.png"
+import thumbnailImage from "./music-unsplash.jpg"
 
-export default function SlideThumbnail() {
+export default function SlideThumbnail({ slide }: { slide: { order: number, image: string}}) {
+    let slideNumber = 2
     return (
         <>
-            <span>1</span>
-            <img src={thumbnailImage}/>
+            <span>{ slide.order }</span>
+            <img src={slide.image} onClick={() => alert("Selected!")}/>
         </>
     ) 
 }
