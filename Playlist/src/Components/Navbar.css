@@ -1,0 +1,25 @@
+/* .navbar
+{
+    background-color: #3333;
+    color: #fff;
+    padding: 6px 0;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    width: 100%;
+}
+
+.nav-list {
+    list-style: none;
+}
+.nav-list li (
+    display: inline;
+    margin: 1 10px;
+    )
+
+.nav-list a (
+    text-decoration: none;
+    color: #fff;
+) */
