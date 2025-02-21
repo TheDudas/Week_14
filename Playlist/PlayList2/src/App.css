@@ -2,3 +2,18 @@
 .card {
   padding: 2em;
 }
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+h1 {
+  text-align: center;
+  font-size: large;
+  background-color: black;
+  text-decoration-color: aliceblue;
+  border-width: 2px;
+  border-color: blue;
+  box-shadow: 1px;
+}

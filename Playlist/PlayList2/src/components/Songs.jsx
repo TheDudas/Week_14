@@ -1,4 +1,6 @@
 /* eslint-disable react/prop-types */
+// this gets the order and data from the data.js file and displays it for App. 
+
 export default function Song({song}) {
       
     return  (

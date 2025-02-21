@@ -1,4 +1,6 @@
 export const defaultSongs = [
+// lists of Song Titles, Albums and Band 
+// exports to App and is passed through function to list each ID.
 
     {    id: 0,
         songTitle: "Panama",
@@ -21,8 +23,8 @@ export const defaultSongs = [
     },
     {
         id: 3,
-        songTitle: "Hero",
-        album: "Foo Fighters",
+        songTitle: "My Hero",
+        album: "Foo Fighters?",
         band: "Foo Fighters",
     },
     {

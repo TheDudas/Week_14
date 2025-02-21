@@ -1,0 +1,24 @@
+
+h1 {
+    text-align: left;
+    font-size: 44px;
+    background-color: rgb(158, 137, 137);
+    font-display: aliceblue;
+    border-width: 4px, 2px, 2px, 4px;
+    border-color: blue;
+    padding: 1rem;
+  }
+
+.card {
+    padding: 2em;
+  }
+  #root {
+    max-width: 500px;
+    margin: 6,0,4, 5;
+    padding: 3rem;
+    text-align: left;
+    border-color: blueviolet;
+    border-top-right-radius: 2%;
+  }
+
+
