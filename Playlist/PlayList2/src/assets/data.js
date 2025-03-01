@@ -33,5 +33,10 @@ export const defaultSongs = [
         album: "Superunknown",
         band: "Soundgarden",
     },
-
+    {
+        id: 5,
+        songTitle: "In Bloom",
+        album: "That one",
+        band: "Nirvana",
+    },
 ]

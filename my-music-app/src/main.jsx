@@ -8,3 +8,4 @@ ReactDOM.createRoot(document.getElementById("root")).render(
     <App />
   </React.StrictMode>
 );
+// imports REact, ReactDon and App and Index.css for all configurations.  Runs App, with the ReactDOm and renders the App as needed. 
